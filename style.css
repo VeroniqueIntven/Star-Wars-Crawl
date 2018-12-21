@@ -64,3 +64,5 @@ body {
   background-image: linear-gradient(0deg, transparent, black 75%);
   z-index: 1;
 }
+.blue { /* OK, a bit contrived... */
+        color: #0000ff;
