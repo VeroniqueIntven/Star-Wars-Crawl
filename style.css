@@ -54,7 +54,7 @@ body {
   transform-origin: 50% 100%;
   /* Adds the crawl animation, which plays for one minute */
   animation: crawl 60s infinite linear;
-  background: url(https://wallpapercave.com/wp/wp2902991.jpg);
+ 
 }
 .fade {
   position: relative;
