@@ -6,6 +6,28 @@ body {
   overflow: hidden;
   /* Black background for the screen */
    background: url(https://wallpapercave.com/wp/wp2902991.jpg);
+  
+  
+    .animated {
+            color: blue;;
+            -webkit-animation-duration: 10s;animation-duration: 10s;
+            -webkit-animation-fill-mode: both;animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeOut {
+            0% {opacity: 1;}
+            100% {opacity: 0;}
+         }
+         
+         @keyframes fadeOut {
+            0% {opacity: 1;}
+            100% {opacity: 0;}
+         }
+         
+         .fadeOut {
+            -webkit-animation-name: fadeOut;
+            animation-name: fadeOut;
+         }
 }
 .star-wars {
   /* Flexbox to center the entire element on the screen */
